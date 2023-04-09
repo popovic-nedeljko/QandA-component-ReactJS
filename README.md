@@ -1,22 +1,11 @@
 ## Questions&Answers ReactJS component project
 
-Check it out LIVE: https://login-questions-and-answers.netlify.app/
+[Check it out](https://login-questions-and-answers.netlify.app/)
 
-#### Idea
+<img src='/src/img/questionsapp.png' width=400 height=400> <img src='/src/img/questions-phone.png' width=250 height=400>
 
-[uidesigndaily](https://uidesigndaily.com/posts/sketch-accordion-website-day-1175)
+User-friendly and interactive way to provide information to users about logging in. By presenting the information in a question-and-answer format, the application allows users to easily find and understand the information they need.
 
-#### React Icons
+The use of icons to expand and collapse the answers adds an intuitive element to the user interface, making the application accessible and engaging.
 
-[react icons](https://react-icons.github.io/react-icons/)
-
-```
-npm install react-icons --save
-```
-
-```javascript
-import { FaHome } from 'react-icons/fa';
-const Component = () => {
-  return <FaHome className='icon'></FaHome>;
-};
-```
+The application uses a functional component for the SingleQuestion component and employs props to pass data between components.The useState hook provides a straightforward way to manage the application's state, while the use of the map function enables the DRY principle and readable code.
