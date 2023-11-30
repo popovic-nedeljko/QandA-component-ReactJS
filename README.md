@@ -9,3 +9,8 @@ User-friendly and interactive way to provide information to users about logging 
 The use of icons to expand and collapse the answers adds an intuitive element to the user interface, making the application accessible and engaging.
 
 The application uses a functional component for the SingleQuestion component and employs props to pass data between components.The useState hook provides a straightforward way to manage the application's state, while the use of the map function enables the DRY principle and readable code.
+
+## NOTE*** 
+node version: 16.15.0
+
+npm version: 8.5.5
